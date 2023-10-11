@@ -25,7 +25,8 @@ const router = createBrowserRouter([
       },
       {
         path : 'contact',
-        element : <Contact></Contact>
+        element : <Contact></Contact>,
+        loader : () => fetch('https://jsonplaceholder.typicode.com/users')
       }
     ]
   }
