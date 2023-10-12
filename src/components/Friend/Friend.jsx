@@ -8,7 +8,7 @@ const Friend = ({friend}) => {
             <h3>{name}</h3>
             <p>email :{email}</p>
             <p>Phone : {phone}</p>
-            <p><Link to={`/friend/${id}`}>Click here to see details:</Link></p>
+            <p><Link to={`/friend/${id}`}><button>Click here to see details</button></Link></p>
         </div>
     );
 };
